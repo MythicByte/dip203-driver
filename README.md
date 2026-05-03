@@ -1,7 +1,7 @@
 # dip203-driver
 
 [![Crates.io](https://img.shields.io/crates/v/dip203-driver.svg)](https://crates.io/crates/dip203-driver)
-[![License](https://img.shields.io/crates/l/dip203-driver.svg)](https://crates.io/crates/dip203-driver)
+[![License](https://img.shields.io/crates/l/dip203-driver.svg)](LICENSE-MIT.txt)
 
 A `no_std` Rust driver for DIP203 compliant LCD displays using the `embedded-hal` v1.0.0 traits.
 
