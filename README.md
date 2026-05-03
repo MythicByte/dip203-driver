@@ -10,6 +10,11 @@ A `no_std` Rust driver for DIP203 compliant LCD displays using the `embedded-hal
 - **`no_std` compatible:** Designed for bare-metal embedded systems.
 - **`embedded-hal` 1.0 support:** Uses the latest stable embedded hardware abstraction layer (`SpiDevice`, `DelayNs`).
 - Simple API for writing text to specific lines and positions.
+  
+## Interface support
+
+- Supported: **SPI**
+- Not supported: I²C (and other interfaces)
 
 ## Installation
 
