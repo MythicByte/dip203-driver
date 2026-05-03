@@ -1,6 +1,6 @@
 [package]
 name = "dip203-driver"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 keywords = ["no-std", "lcd", "embedded-hal-driver", "embedded-hal", "dip203"]
 categories = ["embedded", "hardware-support", "no-std"]
