@@ -14,6 +14,16 @@ readme = "README.md"
 [dependencies]
 embedded-hal = "1.0.0"
 
+[dev-dependencies]
+cortex-m-rt = "0.7.5"
+cortex-m = { version = "0.7.7", features = ["inline-asm", "critical-section-single-core"] }
+embassy-stm32 = { version = "0.6.0", features = ["stm32l100rc", "time-driver-any","memory-x","rt"]}
+embassy-time = { version = "0.5.1", features = ["defmt"] }
+embassy-executor = { version = "0.10.0", features = ["embassy-time-driver","platform-cortex-m","executor-thread"] }
+embedded-hal = "1.0.0"
+embedded-hal-bus = "0.3.0"
+
+
 [lints.clippy]
 indexing_slicing = "deny"
 fallible_impl_from = "deny"
