@@ -42,6 +42,8 @@ lcd.print(Line::Second, Position::First, "Ferris is here").unwrap();
 // lcd.clear();
 ```
 
+![DIP203 Display showing Rust](assets/dip203.jpeg) 
+
 ## Running the Example
 
 This repository contains an example (`demo`) that uses the `embassy-stm32` framework. Because the example is written for an ARM Cortex-M microcontroller (specifically the `stm32l100rc`), you cannot build the example for your host machine (x86_64). 
